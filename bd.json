@@ -5,7 +5,6 @@
       "produto": "Produto XYZ",
       "imagem": "img_07",
       "valor": "62",
-      "descricao": "aaaa",
       "id": 7
     },
     {
@@ -51,13 +50,6 @@
       "id": 17
     },
     {
-      "categoria": "diversos",
-      "produto": "Produto XYZ",
-      "imagem": "img_18",
-      "valor": "60",
-      "id": 18
-    },
-    {
       "categoria": "di",
       "produto": "",
       "imagem": "",
@@ -82,7 +74,7 @@
       "categoria": "starwars",
       "produto": "Produto XYZ",
       "imagem": "img_03",
-      "valor": "61",
+      "valor": "62",
       "id": 32
     },
     {
@@ -91,13 +83,6 @@
       "imagem": "img_01",
       "valor": "32",
       "id": 33
-    },
-    {
-      "categoria": "starwars",
-      "produto": "Produto XYZ",
-      "imagem": "img_02",
-      "valor": "60",
-      "id": 34
     },
     {
       "categoria": "starwars",
@@ -112,69 +97,6 @@
       "imagem": "img_05",
       "valor": "21",
       "id": 36
-    },
-    {
-      "categoria": "starwars",
-      "produto": "Produto XYZ",
-      "imagem": "img_06",
-      "valor": "15",
-      "id": 37
-    },
-    {
-      "categoria": "starwars",
-      "produto": "Produto XYS",
-      "imagem": "img_07",
-      "valor": "22",
-      "id": 38
-    },
-    {
-      "categoria": "consoles",
-      "produto": "Produto XYS",
-      "imagem": "img_12",
-      "valor": "62",
-      "id": 39
-    },
-    {
-      "categoria": "consoles",
-      "produto": "Produto XYS",
-      "imagem": "img_14",
-      "valor": "33",
-      "id": 40
-    },
-    {
-      "categoria": "diversos",
-      "produto": "Produto XYS",
-      "imagem": "img_02",
-      "valor": "11",
-      "id": 41
-    },
-    {
-      "categoria": "diversos",
-      "produto": "Produto XYS",
-      "imagem": "img_03",
-      "valor": "14",
-      "id": 42
-    },
-    {
-      "categoria": "diversos",
-      "produto": "Produto XYS",
-      "imagem": "IMG_11",
-      "valor": "55",
-      "id": 43
-    },
-    {
-      "categoria": "consoles",
-      "produto": "Produto 666",
-      "imagem": "img_08",
-      "valor": "128",
-      "id": 44
-    },
-    {
-      "categoria": "starwars",
-      "produto": "Produto XYS",
-      "imagem": "img_18",
-      "valor": "44",
-      "id": 45
     }
   ]
 }
