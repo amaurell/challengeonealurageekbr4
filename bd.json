@@ -22,13 +22,6 @@
       "id": 9
     },
     {
-      "categoria": "consoles",
-      "produto": "Produto XYZ",
-      "imagem": "img_10",
-      "valor": "60",
-      "id": 10
-    },
-    {
       "categoria": "diversos",
       "produto": "Produto 666",
       "imagem": "img_14",
@@ -83,20 +76,6 @@
       "imagem": "img_01",
       "valor": "32",
       "id": 33
-    },
-    {
-      "categoria": "starwars",
-      "produto": "Produto XYS",
-      "imagem": "img_04",
-      "valor": "89",
-      "id": 35
-    },
-    {
-      "categoria": "starwars",
-      "produto": "Produto XYS",
-      "imagem": "img_05",
-      "valor": "21",
-      "id": 36
     }
   ]
 }

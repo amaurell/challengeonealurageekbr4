@@ -263,17 +263,15 @@ fetch(`http://localhost:3000/bd/${id}`).then(resposta=>{
       deletar  = validacao.substring(0,6)
   
       if(deletar !== "deleta"){
-        window.location.href='index.html'
+        window.location.href='./index.html'
+      }else {
+           //Retira o número dentro da variável 'validacao'
+           const ourNumber = Number(validacao. match(/\d+/)[0])
+           deletaRegistro(ourNumber).then(()=>{
+             window.location.href='./index.html'
+         })
       }
-      if (deletar == "deleta"){
-        
-        //Retira o número dentro da variável 'validacao'
-        const ourNumber = Number(validacao. match(/\d+/)[0])
-        deletaRegistro(ourNumber).then(()=>{
-          window.location.href='index.html'
-      })
-    
-  }
+     
   
 }
   
