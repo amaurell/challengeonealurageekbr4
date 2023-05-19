@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <title>Edita Card</title>
+</head>
+<body>
+  <div class="formulario">
+        <form class='listCard' id="dados" data-form >
+        <h1 class="tituloInsereCard">Mostra Conteúdo Registro</h1>
+        <input type="text" name = "categoria" placeholder="categoria" class="categoria" readonly>
+        <input type="text" name = "produto" placeholder="produto" class="produto" readonly>
+        <input type="text" name = "imagem" placeholder="imagem" class="imagem" readonly>
+        <input type="number" name = "valor" placeholder="valor" class="valor" readonly>
+        <input type="submit" value="VOLTAR" id="btn-submit" class="btn" readonly>
+      </form>
+  </div>
+</body>
+<script type="module" src="../componentes/mostraProduto.js"></script>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <title>Edita Card</title>
+</head>
+<body>
+  <div class="formulario">
+      <form class='listCard' id="dados" data-form >
+        <h1 class="tituloEditaCard">Edita Card</h1>
+        <div class="msgDesligada">
+          <p>Não aceita campos vazios</p>
+        </div>
+        <input type="text" name = "categoria" placeholder="categoria" class="categoria" readonly>
+        <input type="text" name = "produto" placeholder="produto" class="produto" required>
+        <input type="text" name = "imagem" placeholder="imagem" class="imagem" required>
+        <input type="number" name = "valor" placeholder="valor" class="valor" required>
+        <input type="submit" value="Atualizar" id="btn-submit" class="btn" required>
+      </form>
+  </div>
+</body>
+<script type="module" src="../componentes/atualiza.js"></script>
+</html>

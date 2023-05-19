@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <title>Insere Card</title>
+</head>
+<body>
+   <div class="formulario">
+      <form class='listCard' id="dados" data-form >
+        
+        <h1 class="tituloInsereCard">Insere Card</h1>
+        <div class="msgDesligada">
+          <p>Não aceita campos vazios e/ou erro sintaxe categoria</p>
+        </div>
+        <input required type="text" name = "categoria" placeholder="categoria" class="categoria" >
+        <input required type="text" name = "produto" placeholder="produto" class="produto"  >
+        <input required type="text" name = "imagem" placeholder="imagem" class="imagem" >
+        <input required type="number" name = "valor" placeholder="valor" class="valor"  >
+        <input required type="submit" value="Inserir" id="btn-submit" class="btn" >
+
+      </form>
+      
+  </div>
+</body>
+<script type="module" src="../componentes/insereCard.js"></script>
+</html>
